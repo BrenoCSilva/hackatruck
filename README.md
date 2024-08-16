@@ -31,5 +31,7 @@ A curto prazo, o objetivo seria manter o usuário engajado tempo suficiente para
 E assim surgiu o REMIND.
 
 No último dia, apresentamos nossa ideia e protótipo para os outros alunos, para os instrutores que nos auxiliaram em todas as barreiras que encontramos pelo caminho, e para pessoas externas que demonstraram interesse. Uma experiência única que tive o prazer de viver. O local era muito bem equipado em termos de tecnologia, proporcionando todos os recursos necessários para o aprendizado. Além disso, o ambiente era extremamente leve, com instrutores super abertos e comunicativos, altamente capacitados e com uma didática excelente.
-.
 
+
+
+<img src="https://github.com/user-attachments/assets/7bc73f29-0d77-4563-91aa-55d532bd4ab6" height="300px"/>
