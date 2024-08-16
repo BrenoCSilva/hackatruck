@@ -21,7 +21,7 @@ A partir dessa palavra, fizemos um brainstorming sobre o que seria o nosso aplic
 Após pensar em várias ideias, escolhemos a nossa. Eu comecei a ter contato com um aplicativo de revisão espaçada. A retenção de conhecimento se enquadrava perfeitamente no nosso tema de aprendizado. Lembrei que havia parado de usar esse aplicativo, mas continuava muito ativo no Duolingo, e me perguntei o motivo. A resposta foi a ofensiva e a interatividade do Duolingo.
 
 Refleti sobre os pontos que me desanimaram em relação ao Anki e os que me mantiveram motivado no Duolingo. Compartilhei essas reflexões com meus colegas de equipe, e discutimos a viabilidade do projeto: criar um aplicativo de revisão espaçada com flashcards, mas com uma interação maior com o usuário.
-A ideia da revisão espaçada é poderosa por si só, pois tem uma capacidade de retorno muito rápida e eficaz. É fácil identificar sua própria evolução em relação a um tema. No entanto, o Anki possui algumas limitações que podem fazer com que os usuários o abandonem aos poucos:
+A ideia da revisão espaçada é poderosa por si só, pois tem uma capacidade de retorno muito rápida e eficaz. É fácil identificar sua própria evolução em relação a um tema. No entanto, o Anki possui algumas limitações que podem fazer com que os usuários o abandonem aos poucos.
 
 Ele depende muito do usuário, que precisa criar as perguntas e respostas (exigindo mais esforço e dedicação).
 Nem sempre há um flashcard disponível todos os dias, o que pode distanciar o usuário. Para mim, como estudante ativo, seria muito útil ter esse retorno no aplicativo. Em algum momento, a motivação e a disciplina podem enfraquecer, e ter algo a mais que incentive a continuar seria essencial.
