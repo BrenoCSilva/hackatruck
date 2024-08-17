@@ -15,16 +15,15 @@ Minha palavra foi "Consciência". Me reuni com outras três pessoas que escolher
 Na última semana do projeto, ficamos responsáveis por desenvolver um protótipo de um aplicativo, e o tema seria a palavra que havíamos definido na primeira semana.
 A partir dessa palavra, fizemos um brainstorming sobre o que seria o nosso aplicativo:
 
-* Uma trilha interativa, semelhante ao Duolingo, que ofereceria um estudo guiado pela própria plataforma sobre programação.
+* Uma trilha interativa, semelhante ao Duolingo(um aplicativo de aprendizado de idiomas que oferece uma abordagem gamificada para o estudo de diferentes línguas), que ofereceria um estudo guiado pela própria plataforma sobre programação.
 * Essa ideia evoluiu para uma plataforma que hospedaria cursos de diferentes professores, ampliando as áreas de conhecimento e permitindo à plataforma crescer sem depender da contratação de especialistas para desenvolver cada trilha de conhecimento.
   
-Após pensar em várias ideias, escolhemos a nossa. Eu comecei a ter contato com um aplicativo de revisão espaçada. A retenção de conhecimento se enquadrava perfeitamente no nosso tema de aprendizado. Lembrei que havia parado de usar esse aplicativo, mas continuava muito ativo no Duolingo, e me perguntei o motivo. A resposta foi a ofensiva e a interatividade do Duolingo.
+Após pensar em várias ideias, escolhemos a nossa. Eu tinha começado a ter contato com um aplicativo de revisão espaçada. A retenção de conhecimento se enquadrava perfeitamente no nosso tema aprendizado. Lembrei que havia parado de usar esse aplicativo, mas continuava muito ativo no Duolingo, e me perguntei o motivo. A resposta foi a ofensiva e a interatividade do Duolingo.
 
-Refleti sobre os pontos que me desanimaram em relação ao Anki e os que me mantiveram motivado no Duolingo. Compartilhei essas reflexões com meus colegas de equipe, e discutimos a viabilidade do projeto: criar um aplicativo de revisão espaçada com flashcards, mas com uma interação maior com o usuário.
+Refleti sobre os pontos que me desanimaram em relação ao Anki(um software de flashcards que utiliza o método de revisão espaçada para ajudar na retenção de informações a longo prazo) e os que me mantiveram motivado no Duolingo. Compartilhei essas reflexões com meus colegas de equipe, e discutimos a viabilidade do projeto: criar um aplicativo de revisão espaçada com flashcards, mas com uma interação maior com o usuário.
 A ideia da revisão espaçada é poderosa por si só, pois tem uma capacidade de retorno muito rápida e eficaz. É fácil identificar sua própria evolução em relação a um tema. No entanto, o Anki possui algumas limitações que podem fazer com que os usuários o abandonem aos poucos.
 
-Ele depende muito do usuário, que precisa criar as perguntas e respostas (exigindo mais esforço e dedicação).
-Nem sempre há um flashcard disponível todos os dias, o que pode distanciar o usuário. Para mim, como estudante ativo, seria muito útil ter esse retorno no aplicativo. Em algum momento, a motivação e a disciplina podem enfraquecer, e ter algo a mais que incentive a continuar seria essencial.
+Ele depende muito do usuário, que precisa criar as perguntas e respostas (exigindo mais esforço e dedicação). Nem sempre há um flashcard disponível todos os dias, o que pode distanciar o usuário. Para mim, como estudante ativo, seria muito útil ter esse retorno no aplicativo. Em algum momento, a motivação e a disciplina podem enfraquecer, e ter algo a mais que incentive a continuar seria essencial.
 
 A longo prazo, apesar de o flashcard se auto sustentar, sem um incentivo diário, o usuário tende a perder interesse devido à falta de organização, motivação e autodisciplina. Em períodos em que o aluno não tem uma rotina estruturada, como nas férias, seria importante incentivá-lo a continuar aprendendo algo novo, por meio da ofensiva do aplicativo e até de um sistema de ranking.
 
