@@ -33,7 +33,11 @@ E assim surgiu o REMIND.
 No último dia, apresentamos nossa ideia e protótipo para os outros alunos, para os instrutores que nos auxiliaram em todas as barreiras que encontramos pelo caminho, e para pessoas externas que demonstraram interesse. Uma experiência única que tive o prazer de viver. O local era muito bem equipado em termos de tecnologia, proporcionando todos os recursos necessários para o aprendizado. Além disso, o ambiente era extremamente leve, com instrutores super abertos e comunicativos, altamente capacitados e com uma didática excelente.
 
 
-<h1 align="center" >TELAS DO PROTÓTIPO</h1>
+<h1 align="center" ><strong>TELAS DO PROTÓTIPO</strong></h1>
+
+Aqui irei apresentar de forma geral as telas do protótipo, e o que foi realizado em aproximadamente 7 dias pelo grupo. O aplicativo foi testado ao vivo em um iPhone SE. Infelizmente, na época, não foi gravado o aplicativo em execução. Mesmo não tendo material para aprensentar em sua totalidade máxima tudo que foi implementado, tentarei dar uma noção do que tentamos e conseguimos implementar no aplicativo.
+
+##
 
 <h2>1 - Tela de Cadastro e Login</h2>
   Finalidade: Se o utilizador já tiver uma conta, basta inserir o nome de usuário e a senha para que o nosso aplicativo, integrado à "API de Usuários", recupere as informações associadas a essa conta. Caso o utilizador não tenha uma conta, ao clicar no botão "Cadastrar-se", uma <u>Sheet View</u> (Tela que surge de baixo para cima e não cobre toda tela, permitindo que não haja troca de view, apenas uma sobreposição) será apresentada, com campos para serem registrados seu nickname e senha.Uma vez concluído o cadastro, um novo usuário será criado na API e as informações serão armazenadas.
@@ -87,3 +91,17 @@ No último dia, apresentamos nossa ideia e protótipo para os outros alunos, par
 <div align="center">
     <img src="https://github.com/user-attachments/assets/99047f80-d278-4028-833a-32bf54d8ec93" height="300px"/>
 </div>
+
+
+<h1>Implemntaçõs futuras</h1>
+
+Muitas ideias não puderam ser aplicadas no momento da criação do protótipo.
+
+   Pontuação: A pontuação foi amplamente discutida entre os membros do grupo, pois queríamos uma forma justa de atribuição de pontos. Inicialmente, pensamos em conceder pontos por revisar um flashcard, mas essa abordagem parecia inadequada. Como o usuário cria suas próprias perguntas e respostas, ele poderia consultar essas respostas em outro documento para obter uma vantagem. Além disso, a ideia de validar pontos com base na autoavaliação do desempenho também apresentava problemas. Em vez disso, consideramos uma abordagem baseada na consistência do usuário: premiar com pontos pela quantidade de dias seguidos em que o usuário completa pelo menos um flashcard diário. Esses pontos seriam multiplicados por um fator fixo que aumentaria a cada dez dias consecutivos alcançados. No entanto, ainda pensamos em algo mais interessante. Ao final do dia, com base nos flashcards respondidos, a ideia é utilizar uma IA para gerar  perguntas com alternativas, das quais apenas uma seria correta. A pergunta gerada manteria o sentido da resposta fornecida pelo usuário, mas a formulação seria diferente, evitando o problema de o usuário já ter as respostas. Isso permitiria atribuir pontuação a esse simulado diário criado pela IA do aplicativo. Essa abordagem incentiva na compreenção ainda maior do assunto abordado no flashcard.
+
+   FlashCards: 
+
+
+<h1>Informações Adicionais</h1>
+
+O projeto se encontra atualmente em estado de suspensão, pois não temos acesso ao equipamento necessário para dar prosseguimento e aplicar melhorias.    
