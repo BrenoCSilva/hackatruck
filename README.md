@@ -55,3 +55,7 @@ Finalidade:
   Finalidade: Essa aba tem como finalidade mostrar ao usuário a partir de suas avaliações de cards feitos anteriormente quais flashcards ele deve revisar no dia atual. A Exclamação ao lado do card aponta que ainda não foi feito. Assim que ele é completo um "check" aparece no lugar da exclamação.
 
  <img src="https://github.com/user-attachments/assets/017a5397-a008-489d-b620-371f45106b98" height="300px"/>
+
+ <h2> 5 - Ranking</h2>
+
+ <img src=""/>
