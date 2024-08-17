@@ -98,7 +98,7 @@ Muitas ideias não puderam ser aplicadas no momento da criação do protótipo.
 
    Pontuação: A pontuação foi amplamente discutida entre os membros do grupo, pois queríamos uma forma justa de atribuição de pontos. Inicialmente, pensamos em conceder pontos por revisar um flashcard, mas essa abordagem parecia inadequada. Como o usuário cria suas próprias perguntas e respostas, ele poderia consultar essas respostas em outro documento para obter uma vantagem. Além disso, a ideia de validar pontos com base na autoavaliação do desempenho também apresentava problemas. Em vez disso, consideramos uma abordagem baseada na consistência do usuário: premiar com pontos pela quantidade de dias seguidos em que o usuário completa pelo menos um flashcard diário. Esses pontos seriam multiplicados por um fator fixo que aumentaria a cada dez dias consecutivos alcançados. No entanto, ainda pensamos em algo mais interessante. Ao final do dia, com base nos flashcards respondidos, a ideia é utilizar uma IA para gerar  perguntas com alternativas, das quais apenas uma seria correta. A pergunta gerada manteria o sentido da resposta fornecida pelo usuário, mas a formulação seria diferente, evitando o problema de o usuário já ter as respostas. Isso permitiria atribuir pontuação a esse simulado diário criado pela IA do aplicativo. Essa abordagem incentiva na compreenção ainda maior do assunto abordado no flashcard.
 
-   FlashCards: 
+   FlashCards: Outra ideia discutida seria a de ajudar o usuário na criação de seus flashcards. Através de um tema escolhido com um banco de dados de todas as perguntas do tema, uma IA poderia sugerir uma pegunta e resposta.
 
 
 <h1>Informações Adicionais</h1>
