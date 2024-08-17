@@ -57,5 +57,7 @@ Finalidade:
  <img src="https://github.com/user-attachments/assets/017a5397-a008-489d-b620-371f45106b98" height="300px"/>
 
  <h2> 5 - Ranking</h2>
+  Finalidade:
+  
+ <img src="https://github.com/user-attachments/assets/0c0a998a-a5ab-4b32-ad32-865cc4ba17ec" height="300px"/>
 
- <img src=""/>
