@@ -49,4 +49,5 @@ Finalidade:
   Finalidade: Aqui o usuário pode averiguar como o flashcard aparecerá para ele. Primeiro a Pergunta, e após um click na tela a resposta aparece e na parte inferior, a partir de sua autoavalição do seu desempenho ao tentar respoder a pergunta é possível avaliar para que o flashcard volte daqui a algum tempo.
   
 <img src="https://github.com/user-attachments/assets/aca4a7e9-79cf-4865-bffd-edde2d3aeaec" height="300px"/>
+<img src= "https://github.com/user-attachments/assets/de2544ed-4852-45d6-b1f6-088dd44ac866" height="300px"/>
  
