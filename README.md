@@ -32,6 +32,15 @@ E assim surgiu o REMIND.
 No último dia, apresentamos nossa ideia e protótipo para os outros alunos, para os instrutores que nos auxiliaram em todas as barreiras que encontramos pelo caminho, e para pessoas externas que demonstraram interesse. Uma experiência única que tive o prazer de viver. O local era muito bem equipado em termos de tecnologia, proporcionando todos os recursos necessários para o aprendizado. Além disso, o ambiente era extremamente leve, com instrutores super abertos e comunicativos, altamente capacitados e com uma didática excelente.
 
 
+
+![IBM Cloud](https://img.shields.io/badge/IBM_Cloud-1261FE?style=for-the-badge&logo=ibmcloud&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
+![Node-RED](https://img.shields.io/badge/Node--RED-FF0000?style=for-the-badge&logo=nodered&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+
+
+
 <h1 align="center" ><strong>TELAS DO PROTÓTIPO</strong></h1>
 
 Aqui irei apresentar de forma geral as telas do protótipo, e o que foi realizado em aproximadamente 7 dias pelo grupo. O aplicativo foi testado ao vivo em um iPhone SE. Infelizmente, na época, não foi gravado o aplicativo em execução. Mesmo não tendo material para aprensentar em sua totalidade máxima tudo que foi implementado, tentarei dar uma noção do que tentamos e conseguimos implementar no aplicativo.
