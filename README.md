@@ -41,7 +41,12 @@ No último dia, apresentamos nossa ideia e protótipo para os outros alunos, par
 
 <img src="https://github.com/user-attachments/assets/7bc73f29-0d77-4563-91aa-55d532bd4ab6" height="300px"/>
 
-<h2> 3 - Tela de um Card</h2>
+<h2> 3 - Tela de Cards</h2>
 Finalidade:
 <img src="https://github.com/user-attachments/assets/f55995af-6b71-40cb-9d52-9a988c4e87f7" height="300px"/>
+
+<h2> 4 - O Flashcard </h2>
+  Finalidade: Aqui o usuário pode averiguar como o flashcard aparecerá para ele. Primeiro a Pergunta, e após um click na tela a resposta aparece e na parte inferior, a partir de sua autoavalição do seu desempenho ao tentar respoder a pergunta é possível avaliar para que o flashcard volte daqui a algum tempo.
+  
+<img src="https://github.com/user-attachments/assets/aca4a7e9-79cf-4865-bffd-edde2d3aeaec" height="300px"/>
  
