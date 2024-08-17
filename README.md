@@ -39,7 +39,11 @@ No último dia, apresentamos nossa ideia e protótipo para os outros alunos, par
 <h2> 1 - Tela de Cadastro e Login</h2>
   Finalidade: Caso o usuário já tivesse uma conta, era só digitar seu usuário e senha que o nosso aplicativo conectado com nossa "API-usuários" puxava as informações relacionadas a ele. Caso não tivesse uma conta, ao clicar no botão "cadastra-se" através de uma view ele cadastraria seu usuario e senha, e um novo usuário seria criado na no API.
 
+
 <img src="https://github.com/user-attachments/assets/7bc73f29-0d77-4563-91aa-55d532bd4ab6" height="300px"/>
+
+<h2> 2 - Tela de Baralho</h2>
+<img src="https://github.com/user-attachments/assets/f5704876-4b15-4ee0-b47f-f80ca232212e" height="300px"/>
 
 <h2> 3 - Tela de Cards</h2>
 Finalidade:
