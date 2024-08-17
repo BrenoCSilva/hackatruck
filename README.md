@@ -32,44 +32,58 @@ E assim surgiu o REMIND.
 
 No último dia, apresentamos nossa ideia e protótipo para os outros alunos, para os instrutores que nos auxiliaram em todas as barreiras que encontramos pelo caminho, e para pessoas externas que demonstraram interesse. Uma experiência única que tive o prazer de viver. O local era muito bem equipado em termos de tecnologia, proporcionando todos os recursos necessários para o aprendizado. Além disso, o ambiente era extremamente leve, com instrutores super abertos e comunicativos, altamente capacitados e com uma didática excelente.
 
-##
 
-<h1>Telas do protótipo </h1>
+<h1 align="center" >TELAS DO PROTÓTIPO</h1>
 
 <h2>1 - Tela de Cadastro e Login</h2>
-# Se o utilizador já tiver uma conta, basta inserir o nome de usuário e a senha para que o nosso aplicativo, integrado à "API de Usuários", recupere as informações associadas a essa conta. Caso o utilizador não tenha uma conta, ao clicar no botão "Cadastrar-se", uma **Sheet View**(Tele que surge de baixo para cima e não cobre toda tela, permitindo que não haja troca de view, apenas um sobreposição) será apresentada, com campos para serem registrados seu nickname e senha.Uma vez concluído o cadastro, um novo usuário será criado na API e as informações serão armazenadas.
+  Finalidade: Se o utilizador já tiver uma conta, basta inserir o nome de usuário e a senha para que o nosso aplicativo, integrado à "API de Usuários", recupere as informações associadas a essa conta. Caso o utilizador não tenha uma conta, ao clicar no botão "Cadastrar-se", uma <u>Sheet View</u> (Tela que surge de baixo para cima e não cobre toda tela, permitindo que não haja troca de view, apenas uma sobreposição) será apresentada, com campos para serem registrados seu nickname e senha.Uma vez concluído o cadastro, um novo usuário será criado na API e as informações serão armazenadas.
 
-<div align: "center">
+<div align = "center">
   <img src="https://github.com/user-attachments/assets/7bc73f29-0d77-4563-91aa-55d532bd4ab6" height="300px" />
 </div>
 
 
 <h2> 2 - Tela de Baralho</h2>
-<img src="https://github.com/user-attachments/assets/f5704876-4b15-4ee0-b47f-f80ca232212e" height="300px"/>
+  Finalidade: Um baralho seria um conjunto de cards com uma mesma temática. Sendo a tela inicial após o login. Nessa tela, os baralhos do usuário estarão disponíveis para visualização e edição. O usuário poderá alterar o título de um baralho, excluí-lo, e até entrar no baralho para visualizar seus flashcards. Na parte superior, há uma barra de pesquisa que filtra os baralhos com base no nome digitado. Na parte inferior, é possível adicionar um novo baralho. Ainda na parte inferior, uma barra fixa permite a navegação entre as principais views do aplicativo.
 
-<h2> 3 - Tela de Cards</h2>
-Finalidade:
-<img src="https://github.com/user-attachments/assets/f55995af-6b71-40cb-9d52-9a988c4e87f7" height="300px"/>
+<div align = "center">
+  <img  src="https://github.com/user-attachments/assets/f5704876-4b15-4ee0-b47f-f80ca232212e" height="300px"/>
+</div>
+
+<h2> 3 - Tela de Cards </h2>
+  Finalidade: Ao entrar em um baralho, todos os flashcards já criados sobre o tema serão exibidos. Novamente, será possível editar ou excluir. Uma Sheet View é exibida, permitindo que o usuário altere a pergunta e a resposta de um flashcard.  Antes de concluir a edição ou exclusão, seja de um baralho ou de um flashcard, um alerta aparecerá na tela, solicitando a confirmação do usuário para executar a ação desejada.
+
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/f55995af-6b71-40cb-9d52-9a988c4e87f7" height="300px"/>
+</div>
 
 <h2> 4 - O Flashcard </h2>
-  Finalidade: Aqui o usuário pode averiguar como o flashcard aparecerá para ele. Primeiro a Pergunta, e após um click na tela a resposta aparece e na parte inferior, a partir de sua autoavalição do seu desempenho ao tentar respoder a pergunta é possível avaliar para que o flashcard volte daqui a algum tempo.
-  
-<img src="https://github.com/user-attachments/assets/aca4a7e9-79cf-4865-bffd-edde2d3aeaec" height="300px"/>
-<img src= "https://github.com/user-attachments/assets/de2544ed-4852-45d6-b1f6-088dd44ac866" height="300px"/>
+
+ Finalidade: Nesta etapa, o usuário pode visualizar como o flashcard será exibido. Primeiro, a pergunta aparecerá, e ao clicar na tela, a resposta será mostrada por meio de uma Sheet View. Na parte inferior, há botões para que o usuário faça sua autoavaliação, após ter tentado responder à pergunta. O usuário pode então avaliar seu desempenho e informar ao aplicativo, com base na avaliação, o tempo adequado para que o flashcard seja revisado novamente.
+ 
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/aca4a7e9-79cf-4865-bffd-edde2d3aeaec" height="300px"/>
+    <img src= "https://github.com/user-attachments/assets/de2544ed-4852-45d6-b1f6-088dd44ac866" height="300px"/>
+</div>
 
  <h2> 5 - Licões Diárias</h2>
-  Finalidade: Essa aba tem como finalidade mostrar ao usuário a partir de suas avaliações de cards feitos anteriormente quais flashcards ele deve revisar no dia atual. A Exclamação ao lado do card aponta que ainda não foi feito. Assim que ele é completo um "check" aparece no lugar da exclamação.
-
- <img src="https://github.com/user-attachments/assets/017a5397-a008-489d-b620-371f45106b98" height="300px"/>
+ Finalidade: Esta aba tem como objetivo mostrar ao usuário, com base em suas avaliações anteriores, quais flashcards devem ser revisados no dia atual. Uma exclamação ao lado do card indica que a revisão ainda não foi realizada. Assim que o flashcard é revisado, a exclamação é substituída por um "check".
+ 
+<div align="center">
+   <img src="https://github.com/user-attachments/assets/017a5397-a008-489d-b620-371f45106b98" height="300px"/>
+</div>
 
  <h2> 5 - Ranking</h2>
-  Finalidade:
-  
- <img src="https://github.com/user-attachments/assets/0c0a998a-a5ab-4b32-ad32-865cc4ba17ec" height="300px"/>
+  Finalidade: O ranking atua como uma representação visual e competitiva da progressão do usuário ao longo do tempo. Uma pontuação será atribuída ao usuário após a conclusão de suas atividades diárias (o sistema de pontuação será discutido posteriormente como parte das medidas de implementação). Além disso, a construção desse sistema visa fomentar um ambiente de interação, evitando a sensação de isolamento durante o processo de revisão espaçada. Ele reforça a ideia de que outros usuários também estão se esforçando para alcançar suas metas, promovendo um senso de inclusão. Isso é especialmente relevante, pois o aplicativo utilizado como base para a criação do Remind não explorou esse aspecto. Considerando a dependência do usuário para continuar com a metodologia de revisão espaçada, a falta de incentivo pode levar ao afastamento da prática devido ao desgaste.
 
+<div align="center">
+   <img src="https://github.com/user-attachments/assets/0c0a998a-a5ab-4b32-ad32-865cc4ba17ec" height="300px"/>
+</div>
 
- <h2> 6 - Confuig </h2>
-   Finalidade:
+ <h2> 6 - Perfil </h2>
+  Finalidade: A view de perfil visa tornar o aplicativo mais interativo e dinâmico. Nela, o usuário pode visualizar sua pontuação acumulada, bem como seu progresso nas conquistas. Ao clicar em uma conquista, o usuário pode ver qual é o próximo passo necessário para evoluir nessa conquista.
 
- <img src="https://github.com/user-attachments/assets/99047f80-d278-4028-833a-32bf54d8ec93" height="300px"/>
-
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/99047f80-d278-4028-833a-32bf54d8ec93" height="300px"/>
+</div>
