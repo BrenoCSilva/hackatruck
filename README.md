@@ -61,3 +61,9 @@ Finalidade:
   
  <img src="https://github.com/user-attachments/assets/0c0a998a-a5ab-4b32-ad32-865cc4ba17ec" height="300px"/>
 
+
+ <h2> 6 - Confuig </h2>
+   Finalidade:
+
+ <img src="https://github.com/user-attachments/assets/99047f80-d278-4028-833a-32bf54d8ec93" height="300px"/>
+
