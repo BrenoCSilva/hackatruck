@@ -26,7 +26,7 @@ A ideia da revisão espaçada é poderosa por si só, pois tem uma capacidade de
 Ele depende muito do usuário, que precisa criar as perguntas e respostas (exigindo mais esforço e dedicação).
 Nem sempre há um flashcard disponível todos os dias, o que pode distanciar o usuário. Para mim, como estudante ativo, seria muito útil ter esse retorno no aplicativo. Em algum momento, a motivação e a disciplina podem enfraquecer, e ter algo a mais que incentive a continuar seria essencial.
 
-A curto prazo, o objetivo seria manter o usuário engajado tempo suficiente para que ele sinta sua própria evolução. Como? Com uma interface mais amigável e interativa. A longo prazo, apesar de o flashcard se auto sustentar, sem um incentivo diário, o usuário tende a perder interesse devido à falta de organização, motivação e autodisciplina. Em períodos em que o aluno não tem uma rotina estruturada, como nas férias, seria importante incentivá-lo a continuar aprendendo algo novo, por meio da ofensiva do aplicativo e até de um sistema de ranking.
+A longo prazo, apesar de o flashcard se auto sustentar, sem um incentivo diário, o usuário tende a perder interesse devido à falta de organização, motivação e autodisciplina. Em períodos em que o aluno não tem uma rotina estruturada, como nas férias, seria importante incentivá-lo a continuar aprendendo algo novo, por meio da ofensiva do aplicativo e até de um sistema de ranking.
 
 E assim surgiu o REMIND.
 
