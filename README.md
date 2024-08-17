@@ -37,7 +37,7 @@ No último dia, apresentamos nossa ideia e protótipo para os outros alunos, par
 <h1>Telas do protótipo </h1>
 
 <h2>1 - Tela de Cadastro e Login</h2>
-Se o utilizador já tiver uma conta, basta inserir o nome de usuário e a senha para que o nosso aplicativo, integrado à "API de Usuários", recupere as informações associadas a essa conta. Caso o utilizador não tenha uma conta, ao clicar no botão "Cadastrar-se", uma **Sheet View** (Tele que surge de baixo para cima e não cobre toda tela, permitindo que não haja troca de view, apenas um sobreposição) será apresentada, com campos para serem registrados seu nickname e senha.Uma vez concluído o cadastro, um novo usuário será criado na API e as informações serão armazenadas.
+Se o utilizador já tiver uma conta, basta inserir o nome de usuário e a senha para que o nosso aplicativo, integrado à "API de Usuários", recupere as informações associadas a essa conta. Caso o utilizador não tenha uma conta, ao clicar no botão "Cadastrar-se", uma _Sheet View_ (Tele que surge de baixo para cima e não cobre toda tela, permitindo que não haja troca de view, apenas um sobreposição) será apresentada, com campos para serem registrados seu nickname e senha.Uma vez concluído o cadastro, um novo usuário será criado na API e as informações serão armazenadas.
 
 <div aling="center" >
   <img src="https://github.com/user-attachments/assets/7bc73f29-0d77-4563-91aa-55d532bd4ab6" height="300px" />
