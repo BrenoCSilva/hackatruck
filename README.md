@@ -169,10 +169,10 @@ Aqui irei apresentar de forma geral as telas do protótipo, e o que foi realizad
 
 <h2> 4 - O Flashcard </h2>
 
- Finalidade: Nesta etapa, o usuário pode visualizar como o flashcard será exibido. Primeiro, a pergunta aparecerá, e ao clicar na tela, a resposta será mostrada por meio de uma Sheet View. Na parte inferior, há botões para que o usuário faça sua autoavaliação, após ter tentado responder à pergunta. O usuário pode então avaliar seu desempenho e informar ao aplicativo, com base na avaliação, o tempo adequado para que o flashcard seja revisado novamente.
- 
+`Finalidade:`  Nesta etapa, o usuário pode visualizar como o flashcard será exibido. Primeiro, a pergunta aparecerá, e ao clicar no botão, a resposta será mostrada por meio de uma Sheet View. Na parte inferior, há botões para que o usuário faça sua autoavaliação, após ter tentado responder à pergunta. O usuário pode então avaliar seu desempenho e informar ao aplicativo, com base na avaliação, o tempo adequado para que o flashcard seja revisado novamente.
+
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/aca4a7e9-79cf-4865-bffd-edde2d3aeaec" height="300px"/>
+    <img src="https://github.com/user-attachments/assets/e89d99a2-85cb-4149-acca-9f7780748bce" height="320px"/>
     <img src= "https://github.com/user-attachments/assets/de2544ed-4852-45d6-b1f6-088dd44ac866" height="300px"/>
 </div>
 
@@ -194,20 +194,20 @@ Aqui irei apresentar de forma geral as telas do protótipo, e o que foi realizad
 
  <h2> 6 - Perfil </h2>
  
-   `Finalidade:` A view de perfil visa tornar o aplicativo mais interativo e dinâmico. Nela, o usuário pode visualizar sua pontuação acumulada, bem como seu progresso nas conquistas. Ao clicar em uma conquista, o usuário pode ver qual é o próximo passo necessário para evoluir nessa conquista.
+   `Finalidade:` A view de perfil visa tornar o aplicativo mais interativo e dinâmico. Nela, o usuário pode visualizar sua pontuação acumulada, bem como seu progresso nas conquistas. Ao seleciona-la, o usuário pode ver qual é o próximo meta para evoluir nessa conquista.
 
 <div align="center">
     <img src="https://github.com/user-attachments/assets/99047f80-d278-4028-833a-32bf54d8ec93" height="300px"/>
 </div>
 
 
-<h1>Implemntaçõs futuras</h1>
+<h1>Implementações futuras</h1>
 
 Muitas ideias não puderam ser aplicadas no momento da criação do protótipo.
 
-   Pontuação: A pontuação foi amplamente discutida entre os membros do grupo, pois queríamos uma forma justa de atribuição de pontos. Inicialmente, pensamos em conceder pontos por revisar um flashcard, mas essa abordagem parecia inadequada. Como o usuário cria suas próprias perguntas e respostas, ele poderia consultar essas respostas em outro documento para obter uma vantagem. Além disso, a ideia de validar pontos com base na autoavaliação do desempenho também apresentava problemas. Em vez disso, consideramos uma abordagem baseada na consistência do usuário: premiar com pontos pela quantidade de dias seguidos em que o usuário completa pelo menos um flashcard diário. Esses pontos seriam multiplicados por um fator fixo que aumentaria a cada dez dias consecutivos alcançados. No entanto, ainda pensamos em algo mais interessante. Ao final do dia, com base nos flashcards respondidos, a ideia é utilizar uma IA para gerar  perguntas com alternativas, das quais apenas uma seria correta. A pergunta gerada manteria o sentido da resposta fornecida pelo usuário, mas a formulação seria diferente, evitando o problema de o usuário já ter as respostas. Isso permitiria atribuir pontuação a esse simulado diário criado pela IA do aplicativo. Essa abordagem incentiva na compreenção ainda maior do assunto abordado no flashcard.
+   Pontuação: A pontuação foi amplamente discutida entre os membros do grupo, pois queríamos uma forma justa de atribuição de pontos. Inicialmente, pensamos em conceder pontos por revisar um flashcard, mas essa abordagem parecia inadequada. Como o usuário cria suas próprias perguntas e respostas, ele poderia consultar essas respostas em outro documento para obter uma vantagem. Além disso, a ideia de validar pontos com base na autoavaliação do desempenho também apresentava problemas. Em vez disso, consideramos uma abordagem baseada na consistência do usuário: premiar com pontos pela quantidade de dias seguidos em que o usuário completa pelo menos um flashcard diário. Esses pontos seriam multiplicados por um fator fixo que aumentaria a cada dez dias consecutivos alcançados. No entanto, ainda pensamos em algo mais interessante. Ao final do dia, com base nos flashcards respondidos, a ideia é utilizar uma IA para gerar  perguntas com alternativas, das quais apenas uma seria correta. A pergunta gerada manteria o sentido da resposta fornecida pelo usuário, mas a formulação seria diferente, evitando o problema de o usuário já ter as respostas. Isso permitiria atribuir pontuação a esse simulado diário criado pela IA do aplicativo. Essa abordagem incentiva a compreenção ainda maior do assunto abordado no flashcard.
 
-   FlashCards: Outra ideia discutida seria a de ajudar o usuário na criação de seus flashcards. Através de um tema escolhido com um banco de dados de todas as perguntas do tema, uma IA poderia sugerir uma pegunta e resposta.
+   FlashCards: Outra ideia discutida seria a de ajudar o usuário na criação de seus flashcards. Após selecionar um tema através de um  banco de dados com perguntas e respostas criadas por outros usuários, uma IA poderia sugerir uma pegunta e resposta.
 
 
 <h1>Informações Adicionais</h1>
