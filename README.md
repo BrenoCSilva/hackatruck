@@ -32,7 +32,7 @@ E assim surgiu o REMIND.
 No último dia, apresentamos nossa ideia e protótipo para os outros alunos, para os instrutores que nos auxiliaram em todas as barreiras que encontramos pelo caminho, e para pessoas externas que demonstraram interesse. Uma experiência única que tive o prazer de viver. O local era muito bem equipado em termos de tecnologia, proporcionando todos os recursos necessários para o aprendizado. Além disso, o ambiente era extremamente leve, com instrutores super abertos e comunicativos, altamente capacitados e com uma didática excelente.
 
 
-<h1>Tecnologias utilizadas </h1>
+<h1>🔶Tecnologias utilizadas🔶 </h1>
 
 
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-F05138?style=for-the-badge&logo=swift&logoColor=white)
@@ -41,68 +41,81 @@ No último dia, apresentamos nossa ideia e protótipo para os outros alunos, par
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
 
-<h2>IBM Cloud</h2>
+
+<h2>IBM Cloud </h2> 
+
  <p>
-   Finalidade: Hospedagem da API
    
-   Descrição: Utilizada para hospedar a API, garantindo que ela estivesse disponível online e acessível para o aplicativo. A IBM Cloud forneceu a infraestrutura necessária para a execução contínua da API.
+  `Finalidade`: Hospedagem da API
+   
+   `Descrição`: Utilizada para hospedar a API, garantindo que ela estivesse disponível online e acessível para o aplicativo. A IBM Cloud forneceu a infraestrutura necessária para a execução contínua da API.
 </p>
 
 <h2>Node-RED</h2>
 <p>
-    Finalidade: Desenvolvimento e gerenciamento da API
-    Descrição: Configurado para criar e gerenciar fluxos de trabalho que atuam como uma ponte entre a API hospedada na IBM Cloud e as requisições feitas através do Postman. O Node-RED não apenas implementou as operações CRUD, mas também facilitou a comunicação entre a API e as requisições HTTP enviadas pelo Postman. Embora o Node-RED seja frequentemente associado à integração de hardware e IoT, neste projeto foi utilizado para configurar a lógica da API e conectar a API com o sistema de testes e manipulação de dados.
-    
-  Operações CRUD Implementadas:
-
- * Create (Criar): Adiciona novos dados ao sistema com requisições HTTP POST.
-   
-   Exemplo: Criar um novo card com uma requisição POST para o endpoint /baralho.
   
- * Read (Ler): Recupera dados existentes com requisições HTTP GET.
+   `Finalidade`: Desenvolvimento e gerenciamento da API
+    
+  `Descrição`: Configurado para criar e gerenciar fluxos de trabalho que atuam como uma ponte entre a API hospedada na IBM Cloud e as requisições feitas através do Postman. O Node-RED não apenas implementou as operações CRUD, mas também facilitou a comunicação entre a API e as requisições HTTP enviadas pelo Postman. Embora o Node-RED seja frequentemente associado à integração de hardware e IoT, neste projeto foi utilizado para configurar a lógica da API e conectar a API com o sistema de testes e manipulação de dados.
+  
 
-    Exemplo: Listar todos os cards com uma requisição GET para o endpoint /baralho.
  
- * Update (Atualizar): Modifica dados existentes com requisições HTTP PUT ou PATCH.
+ #### **Operações `CRUD` Implementadas:**
+
+ 1. Create (Criar): Adiciona novos dados ao sistema com requisições HTTP POST.
+   
+     Exemplo: Criar um novo card com uma requisição POST para o endpoint /baralho.
+  
+ 2. Read (Ler): Recupera dados existentes com requisições HTTP GET.
+
+      Exemplo: Listar todos os cards com uma requisição GET para o endpoint /baralho.
+ 
+ 3. Update (Atualizar): Modifica dados existentes com requisições HTTP PUT ou PATCH.
    
     Exemplo: Atualizar os detalhes de um card com uma requisição PUT para o endpoint /baralho.
  
- * Delete (Excluir): Remove dados do sistema com requisições HTTP DELETE.
+ 4. Delete (Excluir): Remove dados do sistema com requisições HTTP DELETE.
 
-   Exemplo: Excluir um card específico com uma requisição DELETE para o endpoint /baralho.
+     Exemplo: Excluir um card específico com uma requisição DELETE para o endpoint /baralho.
+
 
 **Estrutura do Fluxo - Endpoints HTTP para Usuários**
 
 | Método | Endpoint                                         | Descrição                                                   |
 |--------|--------------------------------------------------|-------------------------------------------------------------|
-| GET    | `http://192.168.128.102:1880/usuarioRead`       | Recupera dados de um usuário do banco de dados.            |
-| POST   | `http://192.168.128.102:1880/usuarioPost`       | Insere novos dados de usuário no banco de dados.           |
-| PUT    | `http://192.168.128.102:1880/usuarioPut`        | Atualiza dados existentes de um usuário no banco de dados. |
-| DELETE | `http://192.168.128.102:1880/usuarioDelete`     | Exclui dados de um usuário do banco de dados.              |
+| GET    | `http://192.168.128.102:1880/usuarioRead`       | 📖 Recupera dados de um usuário do banco de dados.            |
+| POST   | `http://192.168.128.102:1880/usuarioPost`       | ➕ Insere novos dados de usuário no banco de dados.           |
+| PUT    | `http://192.168.128.102:1880/usuarioPut`        | ✏️ Atualiza dados existentes de um usuário no banco de dados. |
+| DELETE | `http://192.168.128.102:1880/usuarioDelete`     | ❌ Exclui dados de um usuário do banco de dados.              |
 
            
 
 <h2>Postman</h2>
-
 <p>
-    Finalidade: Teste e manipulação de dados da API
   
-  Descrição: Utilizado para testar a API e enviar dados para ela. Com o Postman, foram realizadas as seguintes atividades:
-        
-  Envio de Requisições: Teste das operações CRUD enviando requisições HTTP para os endpoints da API. Por exemplo, adicionar novos dados, recuperar dados existentes, atualizar ou excluir dados.
+  `Finalidade:` Teste e manipulação de dados da API
+  
+ `Descrição:` Utilizado para testar a API e enviar dados para ela. Com o Postman, foram realizadas as seguintes atividades:
+    
+  - Envio de Requisições: Teste das operações CRUD enviando requisições HTTP para os endpoints da API. Por exemplo, adicionar novos dados, recuperar dados existentes, atualizar ou excluir dados.
        
-  Manipulação de Dados: Envio de dados em JSON para verificar a funcionalidade da API e garantir que as operações fossem realizadas conforme o esperado.
+  - Manipulação de Dados: Envio de dados em JSON para verificar a funcionalidade da API e garantir que as operações fossem realizadas conforme o esperado.
 </p>  
 
 <h2>SwiftUI</h2>
 <p>
-    Finalidade: Desenvolvimento do frontend do aplicativo
-    Descrição: Utilizado para desenvolver a interface do usuário do aplicativo de flashcards. As seguintes atividades foram realizadas:
-        Consumo da API: Implementação de código para conectar o aplicativo aos dados fornecidos pela API. Isso envolveu realizar requisições HTTP para os endpoints da API.
-        Conversão de Dados: Os dados retornados pela API vinham no formato JSON. Foi realizada a conversão desses dados JSON para tipos de dados Swift usando o protocolo Codable, permitindo que o aplicativo exibisse e manipulasse os dados dos flashcards de forma eficiente.
+
+   `Finalidade:` Desenvolvimento do frontend do aplicativo
+   
+   `Descrição:` Utilizado para desenvolver a interface do usuário do aplicativo de flashcards. As seguintes atividades foram realizadas:
+  
+  - Consumo da API: Implementação de código para conectar o aplicativo aos dados fornecidos pela API. Isso envolveu realizar requisições HTTP para os endpoints da API.
+  
+  - Conversão de Dados: Os dados retornados pela API vinham no formato JSON. Foi realizada a conversão desses dados JSON para tipos de dados Swift usando o protocolo Codable, permitindo que o aplicativo exibisse e manipulasse os dados dos flashcards de forma eficiente.
+  
 </p>
 
-<h1 align="center" ><strong>TELAS DO PROTÓTIPO</strong></h1>
+<h1 align="center" ><strong>📲TELAS DO PROTÓTIPO</strong></h1>
 
 Aqui irei apresentar de forma geral as telas do protótipo, e o que foi realizado em aproximadamente 7 dias pelo grupo. O aplicativo foi testado ao vivo em um iPhone SE. Infelizmente, na época, não foi gravado o aplicativo em execução. Mesmo não tendo material para aprensentar em sua totalidade máxima tudo que foi implementado, tentarei dar uma noção do que tentamos e conseguimos implementar no aplicativo.
 
@@ -141,7 +154,7 @@ Aqui irei apresentar de forma geral as telas do protótipo, e o que foi realizad
 </div>
 
  <h2> 5 - Licões Diárias</h2>
- Finalidade: Esta aba tem como objetivo mostrar ao usuário, com base em suas avaliações anteriores, quais flashcards devem ser revisados no dia atual. Uma exclamação ao lado do card indica que a revisão ainda não foi realizada. Assim que o flashcard é revisado, a exclamação é substituída por um "check".
+ Finalidade: Esta aba tem como objetivo mostrar ao usuário, com base em suas avaliações anteriores, quais flashcards devem ser revisados no dia atual. Uma exclamação ao lado do card indica que a revisão ainda não foi realizada. Assim que o flashcard é revisado, a exclamação é substituída por um ✔️.
  
 <div align="center">
    <img src="https://github.com/user-attachments/assets/017a5397-a008-489d-b620-371f45106b98" height="300px"/>
