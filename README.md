@@ -82,19 +82,19 @@ No último dia, apresentamos nossa ideia e protótipo para os outros alunos, par
   
  #### **Operações `CRUD` Implementadas:**
 
- 1. Create (Criar): Adiciona novos dados ao sistema com requisições HTTP POST.
+ 1. **Create (Criar):** Adiciona novos dados ao sistema com requisições HTTP POST.
    
      Exemplo: Criar um novo card com uma requisição POST para o endpoint /card.
   
- 2. Read (Ler): Recupera dados existentes com requisições HTTP GET.
+ 2. **Read (Ler):** Recupera dados existentes com requisições HTTP GET.
 
       Exemplo: Listar todos os cards com uma requisição GET para o endpoint /card.
  
- 3. Update (Atualizar): Modifica dados existentes com requisições HTTP PUT.
+ 3. **Update (Atualizar):** Modifica dados existentes com requisições HTTP PUT.
    
     Exemplo: Atualizar os detalhes de um card com uma requisição PUT para o endpoint /card.
  
- 4. Delete (Excluir): Remove dados do sistema com requisições HTTP DELETE.
+ 4. **Delete (Excluir):** Remove dados do sistema com requisições HTTP DELETE.
 
      Exemplo: Excluir um card específico com uma requisição DELETE para o endpoint /card.
 
@@ -142,7 +142,8 @@ Aqui irei apresentar de forma geral as telas do protótipo, e o que foi realizad
 ##
 
 <h2>1 - Tela de Cadastro e Login</h2>
-  Finalidade: Se o utilizador já tiver uma conta, basta inserir o nome de usuário e a senha para que o nosso aplicativo, integrado à "API de Usuários", recupere as informações associadas a essa conta. Caso o utilizador não tenha uma conta, ao clicar no botão "Cadastrar-se", uma <u>Sheet View</u> (Tela que surge de baixo para cima e não cobre toda tela, permitindo que não haja troca de view, apenas uma sobreposição) será apresentada, com campos para serem registrados seu nickname e senha.Uma vez concluído o cadastro, um novo usuário será criado na API e as informações serão armazenadas.
+
+  `Finalidade:` Se o utilizador já tiver uma conta, basta inserir o nome de usuário e a senha para que o nosso aplicativo, integrado à "API de Usuários", recupere as informações associadas a essa conta. Caso o utilizador não tenha uma conta, ao clicar no botão "Cadastrar-se", uma <u>Sheet View</u> (Tela que surge de baixo para cima e não cobre toda tela, permitindo que não haja troca de view, apenas uma sobreposição) será apresentada, com campos para serem registrados seu nickname e senha.Uma vez concluído o cadastro, um novo usuário será criado na API e as informações serão armazenadas.
 
 <div align = "center">
   <img src="https://github.com/user-attachments/assets/7bc73f29-0d77-4563-91aa-55d532bd4ab6" height="300px" />
@@ -150,14 +151,16 @@ Aqui irei apresentar de forma geral as telas do protótipo, e o que foi realizad
 
 
 <h2> 2 - Tela de Baralho</h2>
-  Finalidade: Um baralho seria um conjunto de cards com uma mesma temática. Sendo a tela inicial após o login. Nessa tela, os baralhos do usuário estarão disponíveis para visualização e edição. O usuário poderá alterar o título de um baralho, excluí-lo, e até entrar no baralho para visualizar seus flashcards. Na parte superior, há uma barra de pesquisa que filtra os baralhos com base no nome digitado. Na parte inferior, é possível adicionar um novo baralho. Ainda na parte inferior, uma barra fixa permite a navegação entre as principais views do aplicativo.
+
+  `Finalidade:` Um baralho seria um conjunto de cards com uma mesma temática. Sendo essa a tela inicial após o login. Nela, os baralhos do usuário estarão disponíveis para visualização e edição. Existindo a possibilidade de alterar o título de um baralho, excluí-lo, e até acessa-lo para visualizar seus flashcards. Na parte superior, há uma barra de pesquisa que filtra os baralhos com base no nome digitado. Na parte inferior, é possível adicionar um novo baralho. Ainda na parte inferior, uma barra fixa permite a navegação entre as principais views do aplicativo.
 
 <div align = "center">
   <img  src="https://github.com/user-attachments/assets/f5704876-4b15-4ee0-b47f-f80ca232212e" height="300px"/>
 </div>
 
 <h2> 3 - Tela de Cards </h2>
-  Finalidade: Ao entrar em um baralho, todos os flashcards já criados sobre o tema serão exibidos. Novamente, será possível editar ou excluir. Uma Sheet View é exibida, permitindo que o usuário altere a pergunta e a resposta de um flashcard.  Antes de concluir a edição ou exclusão, seja de um baralho ou de um flashcard, um alerta aparecerá na tela, solicitando a confirmação do usuário para executar a ação desejada.
+
+   `Finalidade:` Ao entrar em um baralho, todos os flashcards já criados sobre o tema serão exibidos. Novamente, será possível editar ou excluir. Uma Sheet View é exibida, permitindo que o usuário altere a pergunta e a resposta de um flashcard.  Antes de concluir a edição ou exclusão, seja de um baralho ou de um flashcard, um alerta aparecerá na tela, solicitando a confirmação do usuário para executar a ação desejada.
 
 
 <div align="center">
@@ -174,21 +177,24 @@ Aqui irei apresentar de forma geral as telas do protótipo, e o que foi realizad
 </div>
 
  <h2> 5 - Licões Diárias</h2>
- Finalidade: Esta aba tem como objetivo mostrar ao usuário, com base em suas avaliações anteriores, quais flashcards devem ser revisados no dia atual. Uma exclamação ao lado do card indica que a revisão ainda não foi realizada. Assim que o flashcard é revisado, a exclamação é substituída por um ✔️.
+ 
+ `Finalidade:` Esta aba tem como objetivo mostrar ao usuário, com base em suas avaliações anteriores, quais flashcards devem ser revisados no dia atual. Uma exclamação ao lado do card indica que a revisão ainda não foi realizada. Assim que o flashcard é revisado, a exclamação é substituída por um ✔️.
  
 <div align="center">
    <img src="https://github.com/user-attachments/assets/017a5397-a008-489d-b620-371f45106b98" height="300px"/>
 </div>
 
  <h2> 5 - Ranking</h2>
-  Finalidade: O ranking atua como uma representação visual e competitiva da progressão do usuário ao longo do tempo. Uma pontuação será atribuída ao usuário após a conclusão de suas atividades diárias (o sistema de pontuação será discutido posteriormente como parte das medidas de implementação). Além disso, a construção desse sistema visa fomentar um ambiente de interação, evitando a sensação de isolamento durante o processo de revisão espaçada. Ele reforça a ideia de que outros usuários também estão se esforçando para alcançar suas metas, promovendo um senso de inclusão. Isso é especialmente relevante, pois o aplicativo utilizado como base para a criação do Remind não explorou esse aspecto. Considerando a dependência do usuário para continuar com a metodologia de revisão espaçada, a falta de incentivo pode levar ao afastamento da prática devido ao desgaste.
+ 
+   `Finalidade:` O ranking atua como uma representação visual e competitiva da progressão do usuário ao longo do tempo. Uma pontuação será atribuída ao usuário após a conclusão de suas atividades diárias (o sistema de pontuação será discutido posteriormente como parte das medidas de implementação). Além disso, a construção desse sistema visa fomentar um ambiente de interação, evitando a sensação de isolamento durante o processo de revisão espaçada. Ele reforça a ideia de que outros usuários também estão se esforçando para alcançar suas metas, promovendo um senso de inclusão. Isso é especialmente relevante, pois o aplicativo utilizado como base para a criação do Remind não explorou esse aspecto. Considerando a dependência do usuário para continuar com a metodologia de revisão espaçada, a falta de incentivo pode levar ao afastamento da prática devido ao desgaste.
 
 <div align="center">
    <img src="https://github.com/user-attachments/assets/0c0a998a-a5ab-4b32-ad32-865cc4ba17ec" height="300px"/>
 </div>
 
  <h2> 6 - Perfil </h2>
-  Finalidade: A view de perfil visa tornar o aplicativo mais interativo e dinâmico. Nela, o usuário pode visualizar sua pontuação acumulada, bem como seu progresso nas conquistas. Ao clicar em uma conquista, o usuário pode ver qual é o próximo passo necessário para evoluir nessa conquista.
+ 
+   `Finalidade:` A view de perfil visa tornar o aplicativo mais interativo e dinâmico. Nela, o usuário pode visualizar sua pontuação acumulada, bem como seu progresso nas conquistas. Ao clicar em uma conquista, o usuário pode ver qual é o próximo passo necessário para evoluir nessa conquista.
 
 <div align="center">
     <img src="https://github.com/user-attachments/assets/99047f80-d278-4028-833a-32bf54d8ec93" height="300px"/>
