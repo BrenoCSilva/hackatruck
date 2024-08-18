@@ -70,17 +70,18 @@ No último dia, apresentamos nossa ideia e protótipo para os outros alunos, par
  * Delete (Excluir): Remove dados do sistema com requisições HTTP DELETE.
 
    Exemplo: Excluir um card específico com uma requisição DELETE para o endpoint /baralho.
-    
-  Estrutura do Fluxo - Endpoints HTTP para Usuários:
-  
-  GET http://192.168.128.102:1880/usuarioRead: Recupera dados de um usuário do banco de dados.
-            
-  POST http://192.168.128.102:1880/usuarioPost: Insere novos dados de usuário no banco de dados.
+
+**Estrutura do Fluxo - Endpoints HTTP para Usuários**
+
+| Método | Endpoint                                         | Descrição                                                   |
+|--------|--------------------------------------------------|-------------------------------------------------------------|
+| GET    | `http://192.168.128.102:1880/usuarioRead`       | Recupera dados de um usuário do banco de dados.            |
+| POST   | `http://192.168.128.102:1880/usuarioPost`       | Insere novos dados de usuário no banco de dados.           |
+| PUT    | `http://192.168.128.102:1880/usuarioPut`        | Atualiza dados existentes de um usuário no banco de dados. |
+| DELETE | `http://192.168.128.102:1880/usuarioDelete`     | Exclui dados de um usuário do banco de dados.              |
+
            
-  PUT http://192.168.128.102:1880/usuarioPut: Atualiza dados existentes de um usuário no banco de dados.
-           
-  DELETE http://192.168.128.102:1880/usuarioDelete: Exclui dados de um usuário do banco de dados.
-</p>  
+
 <h2>Postman</h2>
 
 <p>
