@@ -41,7 +41,53 @@ No último dia, apresentamos nossa ideia e protótipo para os outros alunos, par
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
 
+<h2>IBM Cloud</h2>
+ <p>
+   Finalidade: Hospedagem da API
+   
+   Descrição: Utilizada para hospedar a API, garantindo que ela estivesse disponível online e acessível para o aplicativo. A IBM Cloud forneceu a infraestrutura necessária para a execução contínua da API.
+</p>
 
+<h2>Node-RED</h2>
+<p>
+    Finalidade: Desenvolvimento e gerenciamento da API
+    Descrição: Configurado para criar e gerenciar fluxos de trabalho que atuam como uma ponte entre a API hospedada na IBM Cloud e as requisições feitas através do Postman. O Node-RED não apenas implementou as operações CRUD, mas também facilitou a comunicação entre a API e as requisições HTTP enviadas pelo Postman. Embora o Node-RED seja frequentemente associado à integração de hardware e IoT, neste projeto foi utilizado para configurar a lógica da API e conectar a API com o sistema de testes e manipulação de dados.
+    
+  Operações CRUD Implementadas:
+        Create (Criar): Adiciona novos dados ao sistema com requisições HTTP POST. Exemplo: Criar um novo card com uma requisição POST para o endpoint /baralho.
+        Read (Ler): Recupera dados existentes com requisições HTTP GET. Exemplo: Listar todos os cards com uma requisição GET para o endpoint /baralho.
+        Update (Atualizar): Modifica dados existentes com requisições HTTP PUT ou PATCH. Exemplo: Atualizar os detalhes de um card com uma requisição PUT para o endpoint /baralho.
+        Delete (Excluir): Remove dados do sistema com requisições HTTP DELETE. Exemplo: Excluir um card específico com uma requisição DELETE para o endpoint /baralho.
+    
+  Estrutura do Fluxo - Endpoints HTTP para Usuários:
+  
+  GET http://192.168.128.102:1880/usuarioRead: Recupera dados de um usuário do banco de dados.
+            
+  POST http://192.168.128.102:1880/usuarioPost: Insere novos dados de usuário no banco de dados.
+           
+  PUT http://192.168.128.102:1880/usuarioPut: Atualiza dados existentes de um usuário no banco de dados.
+           
+  DELETE http://192.168.128.102:1880/usuarioDelete: Exclui dados de um usuário do banco de dados.
+</p>  
+<h2>Postman</h2>
+
+<p>
+    Finalidade: Teste e manipulação de dados da API
+  
+  Descrição: Utilizado para testar a API e enviar dados para ela. Com o Postman, foram realizadas as seguintes atividades:
+        
+  Envio de Requisições: Teste das operações CRUD enviando requisições HTTP para os endpoints da API. Por exemplo, adicionar novos dados, recuperar dados existentes, atualizar ou excluir dados.
+       
+  Manipulação de Dados: Envio de dados em JSON para verificar a funcionalidade da API e garantir que as operações fossem realizadas conforme o esperado.
+</p>  
+
+<h2>SwiftUI</h2>
+<p>
+    Finalidade: Desenvolvimento do frontend do aplicativo
+    Descrição: Utilizado para desenvolver a interface do usuário do aplicativo de flashcards. As seguintes atividades foram realizadas:
+        Consumo da API: Implementação de código para conectar o aplicativo aos dados fornecidos pela API. Isso envolveu realizar requisições HTTP para os endpoints da API.
+        Conversão de Dados: Os dados retornados pela API vinham no formato JSON. Foi realizada a conversão desses dados JSON para tipos de dados Swift usando o protocolo Codable, permitindo que o aplicativo exibisse e manipulasse os dados dos flashcards de forma eficiente.
+</p>
 
 <h1 align="center" ><strong>TELAS DO PROTÓTIPO</strong></h1>
 
