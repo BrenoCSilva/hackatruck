@@ -53,6 +53,31 @@ A longo prazo, apesar de o flashcard se auto sustentar, sem um incentivo a curto
 
 No último dia, apresentamos nossa ideia e protótipo para os outros alunos, para os instrutores que nos ajudaram a superar todas as barreiras ao longo do caminho, e para pessoas externas que demonstraram interesse. Foi uma experiência única, da qual tive o prazer de participar. O local era muito bem equipado tecnologicamente, oferecendo todos os recursos necessários para o aprendizado. Além disso, o ambiente era extremamente acolhedor, com instrutores abertos e comunicativos, altamente capacitados e com uma didática excelente.
 
+# Conhecimentos Gerais trabalhados 
+
+   * SwiftUI: Domínio na criação de interfaces de usuário utilizando Views e Modifiers para personalização e composição de elementos visuais.
+
+   * Stacks (VStack, HStack, ZStack): Implementação de layouts flexíveis e organizados, utilizando diferentes pilhas para alinhar e sobrepor componentes.
+
+   * TextField: Configuração e manipulação de campos de texto interativos para entrada de dados do usuário.
+
+   * Variáveis de Estado: Uso de @State para gerenciar e atualizar o estado de variáveis de forma reativa, refletindo mudanças na interface.
+
+   * TabView: Criação de interfaces de navegação com múltiplas abas, facilitando a organização do conteúdo em seções distintas.
+
+   * NavigationLink: Configuração de navegações entre diferentes telas e views dentro do aplicativo.
+
+   * ScrollView: Implementação de rolagem para exibir conteúdo extenso de forma fluida e responsiva.
+
+   * ForEach: Iteração eficiente sobre coleções de dados para gerar listas e componentes dinâmicos.
+
+   * MapKit: Integração de mapas e funcionalidades de localização, permitindo a exibição e interação com mapas diretamente no aplicativo.
+
+   * List: Criação de listas dinâmicas, configurando células personalizadas para exibir coleções de dados.
+
+   * Consumo de API: Fazer requisições a um serviço para acessar suas funcionalidades ou dados. Recebendo dados no formato JSON e convertendo para estruturas.
+
+   * Criação de API: Desenvolvimento e hospedagem de APIs para fornecer dados ao aplicativo.
 
 <h1>Tecnologias utilizadas </h1>
 
