@@ -54,10 +54,22 @@ No último dia, apresentamos nossa ideia e protótipo para os outros alunos, par
     Descrição: Configurado para criar e gerenciar fluxos de trabalho que atuam como uma ponte entre a API hospedada na IBM Cloud e as requisições feitas através do Postman. O Node-RED não apenas implementou as operações CRUD, mas também facilitou a comunicação entre a API e as requisições HTTP enviadas pelo Postman. Embora o Node-RED seja frequentemente associado à integração de hardware e IoT, neste projeto foi utilizado para configurar a lógica da API e conectar a API com o sistema de testes e manipulação de dados.
     
   Operações CRUD Implementadas:
-        Create (Criar): Adiciona novos dados ao sistema com requisições HTTP POST. Exemplo: Criar um novo card com uma requisição POST para o endpoint /baralho.
-        Read (Ler): Recupera dados existentes com requisições HTTP GET. Exemplo: Listar todos os cards com uma requisição GET para o endpoint /baralho.
-        Update (Atualizar): Modifica dados existentes com requisições HTTP PUT ou PATCH. Exemplo: Atualizar os detalhes de um card com uma requisição PUT para o endpoint /baralho.
-        Delete (Excluir): Remove dados do sistema com requisições HTTP DELETE. Exemplo: Excluir um card específico com uma requisição DELETE para o endpoint /baralho.
+
+ * Create (Criar): Adiciona novos dados ao sistema com requisições HTTP POST.
+   
+   Exemplo: Criar um novo card com uma requisição POST para o endpoint /baralho.
+  
+ * Read (Ler): Recupera dados existentes com requisições HTTP GET.
+
+    Exemplo: Listar todos os cards com uma requisição GET para o endpoint /baralho.
+ 
+ * Update (Atualizar): Modifica dados existentes com requisições HTTP PUT ou PATCH.
+   
+    Exemplo: Atualizar os detalhes de um card com uma requisição PUT para o endpoint /baralho.
+ 
+ * Delete (Excluir): Remove dados do sistema com requisições HTTP DELETE.
+
+   Exemplo: Excluir um card específico com uma requisição DELETE para o endpoint /baralho.
     
   Estrutura do Fluxo - Endpoints HTTP para Usuários:
   
