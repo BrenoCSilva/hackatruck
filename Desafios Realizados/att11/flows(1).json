@@ -1,0 +1,286 @@
+[
+    {
+        "id": "03e290c563fcbb04",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5a027d6428b26f35",
+        "type": "http in",
+        "z": "03e290c563fcbb04",
+        "name": "",
+        "url": "/brenoGet",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 180,
+        "y": 180,
+        "wires": [
+            [
+                "0e2d9dcf0167bb56"
+            ]
+        ]
+    },
+    {
+        "id": "48d1283800b236a0",
+        "type": "http response",
+        "z": "03e290c563fcbb04",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 690,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "0e2d9dcf0167bb56",
+        "type": "cloudantplus out",
+        "z": "03e290c563fcbb04",
+        "name": "",
+        "cloudant": "4533e1b3a1af25d0",
+        "database": "brenocsilva",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 390,
+        "y": 180,
+        "wires": [
+            [
+                "48d1283800b236a0"
+            ]
+        ]
+    },
+    {
+        "id": "21f25ee0833095bb",
+        "type": "http in",
+        "z": "03e290c563fcbb04",
+        "name": "",
+        "url": "/brenoPost",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 80,
+        "y": 300,
+        "wires": [
+            [
+                "4bfc217d0737a53e"
+            ]
+        ]
+    },
+    {
+        "id": "5f4ab9a75a8ef08e",
+        "type": "http response",
+        "z": "03e290c563fcbb04",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 810,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "196750c263fa3cae",
+        "type": "cloudantplus out",
+        "z": "03e290c563fcbb04",
+        "name": "",
+        "cloudant": "4533e1b3a1af25d0",
+        "database": "brenocsilva",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 570,
+        "y": 300,
+        "wires": [
+            [
+                "5f4ab9a75a8ef08e"
+            ]
+        ]
+    },
+    {
+        "id": "ad49da641b72d04e",
+        "type": "http in",
+        "z": "03e290c563fcbb04",
+        "name": "",
+        "url": "/brenoRead",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 160,
+        "y": 440,
+        "wires": [
+            [
+                "0a5cd9bf68a4d3ce"
+            ]
+        ]
+    },
+    {
+        "id": "86862c668ca0ad37",
+        "type": "http response",
+        "z": "03e290c563fcbb04",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 670,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "8f88e9a32ecb9a3c",
+        "type": "http in",
+        "z": "03e290c563fcbb04",
+        "name": "",
+        "url": "/brenoPut",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 100,
+        "y": 560,
+        "wires": [
+            [
+                "581e6edde8c461c1"
+            ]
+        ]
+    },
+    {
+        "id": "581e6edde8c461c1",
+        "type": "cloudantplus out",
+        "z": "03e290c563fcbb04",
+        "name": "",
+        "cloudant": "4533e1b3a1af25d0",
+        "database": "brenocsilva",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 290,
+        "y": 560,
+        "wires": [
+            [
+                "15f2a05c1881c930"
+            ]
+        ]
+    },
+    {
+        "id": "0a5cd9bf68a4d3ce",
+        "type": "cloudantplus in",
+        "z": "03e290c563fcbb04",
+        "name": "",
+        "cloudant": "4533e1b3a1af25d0",
+        "database": "brenocsilva",
+        "service": "_ext_",
+        "search": "_all_",
+        "design": "",
+        "index": "",
+        "x": 410,
+        "y": 440,
+        "wires": [
+            [
+                "86862c668ca0ad37"
+            ]
+        ]
+    },
+    {
+        "id": "15f2a05c1881c930",
+        "type": "http response",
+        "z": "03e290c563fcbb04",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 690,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "c59b06fc7475cea0",
+        "type": "http in",
+        "z": "03e290c563fcbb04",
+        "name": "",
+        "url": "/brenoDelete",
+        "method": "delete",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 90,
+        "y": 660,
+        "wires": [
+            [
+                "346a8884060a4f30"
+            ]
+        ]
+    },
+    {
+        "id": "4278b4ebc5d9f910",
+        "type": "cloudantplus out",
+        "z": "03e290c563fcbb04",
+        "name": "",
+        "cloudant": "4533e1b3a1af25d0",
+        "database": "brenocsilva",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "delete",
+        "x": 530,
+        "y": 660,
+        "wires": [
+            [
+                "154395088e9ac0d5"
+            ]
+        ]
+    },
+    {
+        "id": "154395088e9ac0d5",
+        "type": "http response",
+        "z": "03e290c563fcbb04",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 750,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "4bfc217d0737a53e",
+        "type": "split",
+        "z": "03e290c563fcbb04",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 330,
+        "y": 300,
+        "wires": [
+            [
+                "196750c263fa3cae"
+            ]
+        ]
+    },
+    {
+        "id": "346a8884060a4f30",
+        "type": "split",
+        "z": "03e290c563fcbb04",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 310,
+        "y": 660,
+        "wires": [
+            [
+                "4278b4ebc5d9f910"
+            ]
+        ]
+    },
+    {
+        "id": "4533e1b3a1af25d0",
+        "type": "cloudantplus",
+        "host": "https://8685b21f-dcdc-4864-a9bc-84e5121ccc12-bluemix.cloudantnosqldb.appdomain.cloud",
+        "name": "",
+        "useapikey": true
+    }
+]
