@@ -1,4 +1,5 @@
-# hackatruck
+
+# Hackatruck
 
 O HackaTruck MakerSpace é um laboratório móvel tecnológico que tem como objetivo capacitar estudantes de Instituições de Ensino Superior na programação SWIFT para a plataforma iOS. Além de disponibilizar um espaço com várias tecnologias, os alunos têm acesso a dispositivos como o MacBook e o iPhone, que são utilizados como ferramentas de aprendizado.
 
@@ -11,6 +12,7 @@ Quando fizeram uma parceria com a UFES, tive a oportunidade de participar do pro
 
 </div>
 
+# Surgimento do Remind
 
 Na primeira semana, por meio de uma dinâmica realizada pelos instrutores, fomos divididos em grupos de quatro integrantes. Recebemos uma série de perguntas para as quais deveríamos escolher uma palavra que se adequasse, como:
 
@@ -26,19 +28,33 @@ A partir dessa palavra, fizemos um brainstorming sobre o que seria o nosso aplic
   
 Após pensar em várias ideias, escolhemos a nossa. Eu tinha começado a ter contato com um aplicativo de revisão espaçada. A retenção de conhecimento se enquadrava perfeitamente no nosso tema aprendizado. Lembrei que havia parado de usar esse aplicativo, mas continuava muito ativo no Duolingo, e me perguntei o motivo. A resposta foi a ofensiva e a interatividade do Duolingo.
 
-Refleti sobre os pontos que me desanimaram em relação ao Anki(um software de flashcards que utiliza o método de revisão espaçada para ajudar na retenção de informações a longo prazo) e os que me mantiveram motivado no Duolingo. Compartilhei essas reflexões com meus colegas de equipe, e discutimos a viabilidade do projeto: criar um aplicativo de revisão espaçada com flashcards, mas com uma interação maior com o usuário.
-A ideia da revisão espaçada é poderosa por si só, pois tem uma capacidade de retorno muito rápida e eficaz. É fácil identificar sua própria evolução em relação a um tema. No entanto, o Anki possui algumas limitações que podem fazer com que os usuários o abandonem aos poucos.
+Refleti sobre os pontos que me desanimaram em relação ao Anki(um software de flashcards que utiliza o método de revisão espaçada para ajudar na retenção de informações a longo prazo) e os que me mantiveram motivado no Duolingo. Compartilhei essas reflexões com meus colegas de equipe, e discutimos a viabilidade do projeto: 
 
-Ele depende muito do usuário, que precisa criar as perguntas e respostas (exigindo mais esforço e dedicação). Nem sempre há um flashcard disponível todos os dias, o que pode distanciar o usuário. Para mim, como estudante ativo, seria muito útil ter esse retorno no aplicativo. Em algum momento, a motivação e a disciplina podem enfraquecer, e ter algo a mais que incentive a continuar seria essencial.
+<div align="center">
 
-A longo prazo, apesar de o flashcard se auto sustentar, sem um incentivo diário, o usuário tende a perder interesse devido à falta de organização, motivação e autodisciplina. Em períodos em que o aluno não tem uma rotina estruturada, como nas férias, seria importante incentivá-lo a continuar aprendendo algo novo, por meio da ofensiva do aplicativo e até de um sistema de ranking.
+ `criar um aplicativo de revisão espaçada com a metodologia dos flashcards, e que tenha uma interação maior com o usuário.`
 
+ 
 E assim surgiu o REMIND.
+</div>
 
-No último dia, apresentamos nossa ideia e protótipo para os outros alunos, para os instrutores que nos auxiliaram em todas as barreiras que encontramos pelo caminho, e para pessoas externas que demonstraram interesse. Uma experiência única que tive o prazer de viver. O local era muito bem equipado em termos de tecnologia, proporcionando todos os recursos necessários para o aprendizado. Além disso, o ambiente era extremamente leve, com instrutores super abertos e comunicativos, altamente capacitados e com uma didática excelente.
+# Problema x Solução
+
+A ideia da revisão espaçada é poderosa por si só, pois tem uma capacidade de retorno muito rápida e eficaz. É fácil identificar sua própria evolução em relação a um tema.No entanto, o Anki apresenta algumas limitações que podem levar ao abandono gradual por parte dos usuários.
+
+- Ele exige um alto nível de envolvimento do usuário, que precisa criar suas próprias perguntas e respostas, demandando grande esforço e dedicação.
+- Nem sempre há um flashcard disponível diariamente, o que pode afastar o usuário. Quanto menos acessos, mais rápido se perde a conexão com o propósito inicial.
+
+Para mim, como estudante ativo, seria muito útil ter esse retorno no aplicativo. Em algum momento, a motivação e a disciplina podem enfraquecer, e ter algo como um incentivo adicional entive seria essencial.
+
+A longo prazo, apesar de o flashcard se auto sustentar, sem um incentivo a curto prazo, o usuário tende a perder interesse devido à falta de organização, motivação e autodisciplina. Em períodos em que o aluno não tem uma rotina estruturada, como nas férias, seria importante incentivá-lo a continuar aprendendo algo novo, por meio de uma ofensiva por exemplo, algo que medisse sua constância na execução de uma atividade ou até mesmo um sistema de ranking.
+
+# Feedback 
+
+No último dia, apresentamos nossa ideia e protótipo para os outros alunos, para os instrutores que nos ajudaram a superar todas as barreiras ao longo do caminho, e para pessoas externas que demonstraram interesse. Foi uma experiência única, da qual tive o prazer de participar. O local era muito bem equipado tecnologicamente, oferecendo todos os recursos necessários para o aprendizado. Além disso, o ambiente era extremamente acolhedor, com instrutores abertos e comunicativos, altamente capacitados e com uma didática excelente.
 
 
-<h1>🔶Tecnologias utilizadas🔶 </h1>
+<h1>Tecnologias utilizadas </h1>
 
 
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-F05138?style=for-the-badge&logo=swift&logoColor=white)
@@ -54,35 +70,33 @@ No último dia, apresentamos nossa ideia e protótipo para os outros alunos, par
    
   `Finalidade`: Hospedagem da API
    
-   `Descrição`: Utilizada para hospedar a API, garantindo que ela estivesse disponível online e acessível para o aplicativo. A IBM Cloud forneceu a infraestrutura necessária para a execução contínua da API.
+   `Descrição`: Foi Utilizada para hospedar a API, garantindo que ela estivesse disponível online e acessível para o aplicativo. A IBM Cloud forneceu a infraestrutura necessária para a execução contínua da API.
 </p>
 
 <h2>Node-RED</h2>
 <p>
   
-   `Finalidade`: Desenvolvimento e gerenciamento da API
-    
-  `Descrição`: Configurado para criar e gerenciar fluxos de trabalho que atuam como uma ponte entre a API hospedada na IBM Cloud e as requisições feitas através do Postman. O Node-RED não apenas implementou as operações CRUD, mas também facilitou a comunicação entre a API e as requisições HTTP enviadas pelo Postman. Embora o Node-RED seja frequentemente associado à integração de hardware e IoT, neste projeto foi utilizado para configurar a lógica da API e conectar a API com o sistema de testes e manipulação de dados.
-  
+   `Finalidade`: Node-RED é uma ferramenta de desenvolvimento baseada em fluxo para programação visual com o objetivo de conectar dispositivos de hardware, APIs e serviços online. Então atuou no Desenvolvimento e gerenciamento da API.
 
- 
+  `Descrição`:  Foi Configurado para criar e gerenciar fluxos de trabalho que atuaram como uma ponte entre a API hospedada na IBM Cloud e as requisições feitas através do Postman. O Node-RED  implementou as operações CRUD, e conectou a API com o sistema de testes e manipulação de dados.
+  
  #### **Operações `CRUD` Implementadas:**
 
  1. Create (Criar): Adiciona novos dados ao sistema com requisições HTTP POST.
    
-     Exemplo: Criar um novo card com uma requisição POST para o endpoint /baralho.
+     Exemplo: Criar um novo card com uma requisição POST para o endpoint /card.
   
  2. Read (Ler): Recupera dados existentes com requisições HTTP GET.
 
-      Exemplo: Listar todos os cards com uma requisição GET para o endpoint /baralho.
+      Exemplo: Listar todos os cards com uma requisição GET para o endpoint /card.
  
- 3. Update (Atualizar): Modifica dados existentes com requisições HTTP PUT ou PATCH.
+ 3. Update (Atualizar): Modifica dados existentes com requisições HTTP PUT.
    
-    Exemplo: Atualizar os detalhes de um card com uma requisição PUT para o endpoint /baralho.
+    Exemplo: Atualizar os detalhes de um card com uma requisição PUT para o endpoint /card.
  
  4. Delete (Excluir): Remove dados do sistema com requisições HTTP DELETE.
 
-     Exemplo: Excluir um card específico com uma requisição DELETE para o endpoint /baralho.
+     Exemplo: Excluir um card específico com uma requisição DELETE para o endpoint /card.
 
 
 **Estrutura do Fluxo - Endpoints HTTP para Usuários**
@@ -99,7 +113,7 @@ No último dia, apresentamos nossa ideia e protótipo para os outros alunos, par
 <h2>Postman</h2>
 <p>
   
-  `Finalidade:` Teste e manipulação de dados da API
+  `Finalidade:` Teste e manipulação de dados da API. O Postman executou as operações CRUD implementadas pelo Node-Red.
   
  `Descrição:` Utilizado para testar a API e enviar dados para ela. Com o Postman, foram realizadas as seguintes atividades:
     
@@ -113,17 +127,17 @@ No último dia, apresentamos nossa ideia e protótipo para os outros alunos, par
 
    `Finalidade:` Desenvolvimento do frontend do aplicativo
    
-   `Descrição:` Utilizado para desenvolver a interface do usuário do aplicativo de flashcards. As seguintes atividades foram realizadas:
+   `Descrição:` Utilizado para desenvolver a interface do usuário do aplicativo. As seguintes atividades foram realizadas:
   
   - Consumo da API: Implementação de código para conectar o aplicativo aos dados fornecidos pela API. Isso envolveu realizar requisições HTTP para os endpoints da API.
   
-  - Conversão de Dados: Os dados retornados pela API vinham no formato JSON. Foi realizada a conversão desses dados JSON para tipos de dados Swift usando o protocolo Codable, permitindo que o aplicativo exibisse e manipulasse os dados dos flashcards de forma eficiente.
+  - Conversão de Dados: Os dados retornados pela API vinham no formato JSON. Foi realizada a conversão desses dados JSON para tipos de dados Swift usando o protocolo Codable, permitindo que o aplicativo exibisse e manipulasse os dados.
   
 </p>
 
-<h1 align="center" ><strong>📲TELAS DO PROTÓTIPO</strong></h1>
+<h1 align="center" ><strong>TELAS DO PROTÓTIPO</strong></h1>
 
-Aqui irei apresentar de forma geral as telas do protótipo, e o que foi realizado em aproximadamente 7 dias pelo grupo. O aplicativo foi testado ao vivo em um iPhone SE. Infelizmente, na época, não foi gravado o aplicativo em execução. Mesmo não tendo material para aprensentar em sua totalidade máxima tudo que foi implementado, tentarei dar uma noção do que tentamos e conseguimos implementar no aplicativo.
+Aqui irei apresentar de forma geral as telas do protótipo, e o que foi realizado em aproximadamente 7 dias pelo grupo. O aplicativo foi testado ao vivo em um iPhone SE. Infelizmente, na época, não foi gravado o aplicativo em execução. Mesmo não tendo material para apresentar em sua totalidade máxima tudo que foi implementado, tentarei dar uma noção do que tentamos e conseguimos implementar no aplicativo.
 
 ##
 
