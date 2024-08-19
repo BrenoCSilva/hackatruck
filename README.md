@@ -51,7 +51,7 @@ A longo prazo, apesar de o flashcard se auto sustentar, sem um incentivo a curto
 
 # Desenvolvimento
 
- Apresentamos aos instrutores a ideia e as telas que pensavámos que o aplicativo teria, eles viabilizaram analisando o que foi ensinado, o prazo,e  o quanto poderiamos precisar de auxílio.
+ Apresentamos aos instrutores a ideia e as telas que pensávamos que o aplicativo teria, eles viabilizaram analisando o que foi ensinado, o prazo,e  o quanto poderiamos precisar de auxílio.
  
 # Conhecimentos Gerais trabalhados 
 
@@ -245,7 +245,13 @@ No último dia, apresentamos nossa ideia e protótipo para os outros alunos, par
 
 <h1>Colaboradores</h1>
 
-[Breno Costa Silva](https://www.instagram.com/breno.portgas/)
-[Alvaro Antunes de Oliveira](https://www.instagram.com/alvaroantunes019/)
-[Guilherme Figueiredo Louzada](https://www.instagram.com/guilhermefigueiredo94/)
-[Luiz Felipe Nolasco](https://www.instagram.com/lfelipe.n/)
+<div align="center">
+   <img src="https://github.com/user-attachments/assets/79bd5aab-bdfe-4cef-b795-2cbfb05ef3b5" height="300px"/>
+ 
+ [Breno Costa Silva](https://www.instagram.com/breno.portgas/) 
+ [Guilherme Figueiredo Louzada](https://www.instagram.com/guilhermefigueiredo94/)
+ [Luiz Felipe Nolasco](https://www.instagram.com/lfelipe.n/)
+ [Alvaro Antunes de Oliveira](https://www.instagram.com/alvaroantunes019/)
+
+</div>
+
