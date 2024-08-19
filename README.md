@@ -49,10 +49,10 @@ Para mim, como estudante ativo, seria muito útil ter esse retorno no aplicativo
 
 A longo prazo, apesar de o flashcard se auto sustentar, sem um incentivo a curto prazo, o usuário tende a perder interesse devido à falta de organização, motivação e autodisciplina. Em períodos em que o aluno não tem uma rotina estruturada, como nas férias, seria importante incentivá-lo a continuar aprendendo algo novo, por meio de uma ofensiva por exemplo, algo que medisse sua constância na execução de uma atividade ou até mesmo um sistema de ranking.
 
-# Feedback 
+# Desenvolvimento
 
-No último dia, apresentamos nossa ideia e protótipo para os outros alunos, para os instrutores que nos ajudaram a superar todas as barreiras ao longo do caminho, e para pessoas externas que demonstraram interesse. Foi uma experiência única, da qual tive o prazer de participar. O local era muito bem equipado tecnologicamente, oferecendo todos os recursos necessários para o aprendizado. Além disso, o ambiente era extremamente acolhedor, com instrutores abertos e comunicativos, altamente capacitados e com uma didática excelente.
-
+ Apresentamos aos instrutores a ideia e as telas que pensavámos que o aplicativo teria, eles viabilizaram analisando o que foi ensinado, o prazo,e  o quanto poderiamos precisar de auxílio.
+ 
 # Conhecimentos Gerais trabalhados 
 
    * SwiftUI: Domínio na criação de interfaces de usuário utilizando Views e Modifiers para personalização e composição de elementos visuais.
@@ -238,3 +238,14 @@ Muitas ideias não puderam ser aplicadas no momento da criação do protótipo.
 <h1>Informações Adicionais</h1>
 
 O projeto se encontra atualmente em estado de suspensão, pois não temos acesso ao equipamento necessário para dar prosseguimento e aplicar melhorias.    
+
+# Feedback 
+
+No último dia, apresentamos nossa ideia e protótipo para os outros alunos, para os instrutores que nos ajudaram a superar todas as barreiras ao longo do caminho, e para pessoas externas que demonstraram interesse. Foi uma experiência única, da qual tive o prazer de participar. O local era muito bem equipado tecnologicamente, oferecendo todos os recursos necessários para o aprendizado. Além disso, o ambiente era extremamente acolhedor, com instrutores abertos e comunicativos, altamente capacitados e com uma didática excelente.
+
+<h1>Colaboradores</h1>
+
+[Breno Costa Silva](https://www.instagram.com/breno.portgas/)
+[Alvaro Antunes de Oliveira](https://www.instagram.com/alvaroantunes019/)
+[Guilherme Figueiredo Louzada](https://www.instagram.com/guilhermefigueiredo94/)
+[Luiz Felipe Nolasco](https://www.instagram.com/lfelipe.n/)
