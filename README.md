@@ -1,5 +1,5 @@
 
-# Hackatruck
+# [Hackatruck](https://hackatruck.com.br/)
 
 O [HackaTruck MakerSpace](https://www.instagram.com/hackatruck_makerspace/) é um laboratório móvel tecnológico que tem como objetivo capacitar estudantes de Instituições de Ensino Superior na programação SWIFT para a plataforma iOS. Além de disponibilizar um espaço com várias tecnologias, os alunos têm acesso a dispositivos como o MacBook e o iPhone, que são utilizados como ferramentas de aprendizado.
 
@@ -209,7 +209,7 @@ Aqui irei apresentar de forma geral as telas do protótipo, e o que foi realizad
    <img src="https://github.com/user-attachments/assets/017a5397-a008-489d-b620-371f45106b98" height="300px"/>
 </div>
 
- <h2> 5 - Ranking</h2>
+ <h2> 6 - Ranking</h2>
  
    `Finalidade:` O ranking atua como uma representação visual e competitiva da progressão do usuário ao longo do tempo. Uma pontuação será atribuída ao usuário após a conclusão de suas atividades diárias (o sistema de pontuação será discutido posteriormente como parte das medidas de implementação). Além disso, a construção desse sistema visa fomentar um ambiente de interação, evitando a sensação de isolamento durante o processo de revisão espaçada. Ele reforça a ideia de que outros usuários também estão se esforçando para alcançar suas metas, promovendo um senso de inclusão. Isso é especialmente relevante, pois o aplicativo utilizado como base para a criação do Remind não explorou esse aspecto. Considerando a dependência do usuário para continuar com a metodologia de revisão espaçada, a falta de incentivo pode levar ao afastamento da prática devido ao desgaste.
 
@@ -217,7 +217,7 @@ Aqui irei apresentar de forma geral as telas do protótipo, e o que foi realizad
    <img src="https://github.com/user-attachments/assets/0c0a998a-a5ab-4b32-ad32-865cc4ba17ec" height="300px"/>
 </div>
 
- <h2> 6 - Perfil </h2>
+ <h2> 7 - Perfil </h2>
  
    `Finalidade:` A view de perfil visa tornar o aplicativo mais interativo e dinâmico. Nela, o usuário pode visualizar sua pontuação acumulada, bem como seu progresso nas conquistas. Ao seleciona-la, o usuário pode ver qual é o próximo meta para evoluir nessa conquista.
 
